@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>PSYQUIA</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="{% static "libs/bootstrap/css/bootstrap.min.css" %}">
+
+	<link rel="stylesheet" href="{% static "css/base/navbar.css" %}">
+	{%block contenido_head%}
+
+	{% endblock %}
+</head>
+<body>
+	{% include 'base/navbar.html' %}
+	{% block contenido_body %}
+
+	{% endblock %}
+	<hr>
+	<h5>Footer</h5>
+	<!-- Bootstrap & JQuery -->
+	<script src="{% static "libs/jquery/jquery-3.4.1.min.js" %}"></script>
+	<script src="{% static "libs/bootstrap/js/bootstrap.min.js" %}"></script>
+</body>
+</html>
