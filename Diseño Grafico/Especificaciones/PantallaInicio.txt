@@ -1,0 +1,8 @@
+Navbar:
+Logo.png
+Slogan.png
+
+Texto BIENVENIDO:
+	font-size:40px;
+	font-family: "Times New Roman", Times, serif;
+Texto WELCOME:
