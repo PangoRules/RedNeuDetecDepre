@@ -17,5 +17,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('doc/home',views.docHome),
+    path('doc/home',views.docHome, name="DocHome"),
 ]

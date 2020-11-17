@@ -19,7 +19,9 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home),
+    path('', views.home, name="PaginaInicioAnonimo"),
+    path('iniciar_sesion/', views.iniciar_sesion, name="PaginaFormIniciarSesion"),
+    path('registrarse/', views.registrarse, name="PaginaFormRegistro"),
     path('', include('administradores.urls')),
     path('', include('doctores.urls')),
 ]
