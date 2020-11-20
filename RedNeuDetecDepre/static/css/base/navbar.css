@@ -9,10 +9,8 @@
 	margin: 0rem;
 	margin-right:2rem;
 }
-.navbar{
-	width: 100%;
-	height: 100%;
-	background-image: url("../../img/fondos/fondoNav.jpg")!important;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+nav{
+	width: auto;
+	height: auto;
+	background-color: transparent!important;
 }
