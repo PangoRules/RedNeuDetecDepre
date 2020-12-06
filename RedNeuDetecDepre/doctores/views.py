@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def docHome(request):
 	return HttpResponse('Hola doctor')
+
+def docTest(request):
+	return render(request, "doctor/test.html")

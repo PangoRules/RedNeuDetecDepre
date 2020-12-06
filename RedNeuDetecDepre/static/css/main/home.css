@@ -3,5 +3,21 @@ html, body{
     padding: 0;
 }
 body{
-    background-color: darkgreen;
+    background-color: rgb(127, 219, 219);
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer a:hover{
+    color: darkslategray;
 }
