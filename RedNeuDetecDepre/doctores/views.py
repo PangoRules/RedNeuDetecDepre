@@ -3,8 +3,14 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def docHome(request):
-	return HttpResponse('Hola doctor')
+def docDashboard(request):
+	return render(request, "doctor/test.html")
 
 def docTest(request):
 	return render(request, "doctor/test.html")
+
+def docBeck(request):
+	return render(request, "doctor/beck.html")
+
+def docRegPaciente(request):
+	return render(request, "doctor/registrarpaciente.html")
