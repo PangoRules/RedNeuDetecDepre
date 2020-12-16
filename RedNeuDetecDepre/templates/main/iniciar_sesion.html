@@ -16,10 +16,11 @@
             <input type="password" class="form-control" name="password" placeholder="Password" required="required">
         </div>
 		<div class="form-group">
-            <button type="submit" class="btn btn-success btn-lg btn-block">Iniciar Sesión</button>
+            <button type="submit" class="btn btn-success btn-lg btn-block"><a href="{% url 'DocDashboard' %}">Iniciar Sesión</a></button>
         </div>
     </form>
 	<div class="text-center">No tienes una cuenta? <a href="{% url 'PaginaFormRegistro' %}">Registrarse</a></div>
+    <div class="text-center">Haz olvidado tu contraseña? <a href="{% url 'PaginaFormOlvideContra' %}">Recuperar Cuenta</a></div>
 </div>
 {% endblock %}
 

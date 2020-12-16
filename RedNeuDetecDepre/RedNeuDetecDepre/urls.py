@@ -22,6 +22,7 @@ urlpatterns = [
     path('', views.home, name="PaginaInicioAnonimo"),
     path('iniciar_sesion/', views.iniciar_sesion, name="PaginaFormIniciarSesion"),
     path('registrarse/', views.registrarse, name="PaginaFormRegistro"),
+    path('olvide_contra/', views.olvide_contra, name="PaginaFormOlvideContra"),
     path('', include('administradores.urls')),
     path('', include('doctores.urls')),
 ]

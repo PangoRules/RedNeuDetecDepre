@@ -9,3 +9,6 @@ def iniciar_sesion(request):
 
 def registrarse(request):
 	return render(request, "main/registrarse.html")
+
+def olvide_contra(request):
+	return render(request, "main/olvide_contraseña.html")
