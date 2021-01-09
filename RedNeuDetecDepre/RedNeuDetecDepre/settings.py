@@ -141,3 +141,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
 ]
+
+#Email psyquia2@gmail.com
+#Passw P4ng0Ru135
